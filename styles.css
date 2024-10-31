@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: SF Pro Text;
+}
+.nav-bar{
+    width: 100vw;
+    height: 45px;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-options{
+    font-size: 12px;
+}
+.nav-icons img{
+    width: 15px;
+    height: 15px;
+}
+
+
+
+
+
+main{
+    width: 100vw;
+    padding-top: 44px;
+}
+.poster-section{
+    display: grid;
+    column-count: 1;
+    grid-gap: 12px;
+}
+.poster-1{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    align-items: center;
+}
+.bg-gradient{
+    position: absolute;
+    top: 44px;
+    width: 100vw;
+    height: 800px;
+    z-index: -1;
+    background: linear-gradient(94deg, #58cdff, #229bff, #df62db, #fb6159, #ffa109);
+}
+.white{
+    position: absolute;
+    top: 44px;
+    width: 100vw;
+    height: 800px;
+    z-index: -1;
+    background: linear-gradient(transparent, white, white);
+}
+.container-imac{
+    height: 800px;
+}
+.content{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.name-buttons{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    align-items: center;
+}
+.blanner{
+    padding-top: 40px;
+    padding-bottom: 100px;
+    align-items: center;
+    text-align: center;
+}
+.name-buttons h2{
+    font-size: 53px;
+}
+.name-buttons p{
+    max-width: 600px;
+    font-size: 25px;
+}
+.brilliant{
+    text-align: center;
+    word-spacing: -6px;
+}
+.buttons-poster-1{
+    margin-top: 20px;
+}
+.button-learnmore{
+    font-size: 17px;
+    background-color: #0071e3;
+    color: white;
+    padding: 11px 21px;
+    border: 1px solid #0071e3;
+    border-radius: 22px;
+}
+.button-buy{
+    font-size: 17px;
+    background-color: transparent;
+    color: #0066cc;
+    padding: 11px 21px;
+    border: 1px solid #0066cc;
+    border-radius: 22px;
+    margin-left: 10px;
+}
+.button-buy:hover{
+    background-color: #0071e3;
+    color: white;
+}
+#c1{
+    color: rgb(62, 147, 92);
+}
+#c2{
+    color: rgb(237, 209, 66);
+}
+#c3{
+    color: rgb(227, 112, 75);
+}
+#c4{
+    color: rgb(222, 95, 125);
+}
+#c5{
+    color: rgb(130, 126, 178);
+}
+#c6{
+    color: rgb(84, 126, 174);
+}
+#Available{
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 2%;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.tag-line-imac{
+    margin-bottom: 30px;
+}
+.tag-line-imac span{
+    font-size: 20px;
+    font-weight: 700;
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+.poster-2{
+    display: flex;
+    width: 100vw;
+    height: 600px;
+    justify-content: center;
+}
+.bg-iphone16-pro{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 600px;
+    background-color: rgb(10, 10, 10);
+}
+.content-poster-2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-poster-2 h1{
+    color: white;
+    font-size: 53px;
+}
+.content-poster-2 p{
+    color: white;
+    font-size: 25px;
+}
+.buttons-poster-2{
+    margin-top: 20px;
+}
+
+
+
+
+.poster-3{
+    display: flex;
+    width: 100vw;
+    height: 600px;
+    justify-content: center;
+}
+.bg-iphone16{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 600px;
+    background: linear-gradient(#0e143f 20%, white);
+}
+.content-poster-3{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-poster-3 h1{
+    color: white;
+    font-size: 53px;
+}
+.content-poster-3 p{
+    color: white;
+    font-size: 25px;
+}
+.buttons-poster-3{
+    margin-top: 20px;
+}
+#btn-1-iphone-16{
+    color: #050718;
+    border-color: white;
+    background-color: white;
+}
+#btn-2-iphone-16{
+    border-color: white;
+    color: white;
+}
+#btn-2-iphone-16:hover{
+    background-color: white;
+    color: #050718;
+}
+
+
+
+
+.tiles-section{
+    display: grid;
+    column-rule-width: 50vw;
+    column-count: 2;
+    row-gap: 12px;
+    column-gap: 12px;
+    justify-items: center;
+}
+.airpods{
+    background-color: grey;
+}
+.content-airpods h2{
+    font-size: 48px;
+}
+.content-airpods p{
+    max-width: 50%;
+    font-size: 22px;
+
+}
+.watch{
+    grid-column: 2;
+    background-color: grey;
+}
