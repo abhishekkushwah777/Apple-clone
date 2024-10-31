@@ -227,30 +227,3 @@ main{
     background-color: white;
     color: #050718;
 }
-
-
-
-
-.tiles-section{
-    display: grid;
-    column-rule-width: 50vw;
-    column-count: 2;
-    row-gap: 12px;
-    column-gap: 12px;
-    justify-items: center;
-}
-.airpods{
-    background-color: grey;
-}
-.content-airpods h2{
-    font-size: 48px;
-}
-.content-airpods p{
-    max-width: 50%;
-    font-size: 22px;
-
-}
-.watch{
-    grid-column: 2;
-    background-color: grey;
-}
